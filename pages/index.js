@@ -18,7 +18,7 @@ export default function Index({ posts, globalData }) {
       <SEO title={globalData.name} description={globalData.blogTitle} />
       <Header name={globalData.name} />
       <main className="w-full">
-        <h1 id="anre-research-title-text" className="text-3xl lg:text-5xl text-center mb-12">
+        <h1 className="text-3xl lg:text-6xl text-center mb-12 font-bold md:font-sans md:font-family-sego-ui sm:font-family-tahoma">
           {globalData.blogTitle}
         </h1>
         <ul className="w-full">
