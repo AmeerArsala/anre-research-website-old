@@ -1,3 +1,7 @@
+/*
+  NOTE: THIS IS THE MAIN WHERE THE CONTENT IS DISPLAYED
+*/
+
 import Link from 'next/link';
 import { getPosts } from '../utils/mdx-utils';
 
