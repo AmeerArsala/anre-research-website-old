@@ -1,10 +1,10 @@
-import ShaderComponent from '../components/ShaderComponent';
-import { VERTEX_DEFAULT, FRAG_NetworkExploration } from "../shader/shader_code";
+import ShaderComponent from '../components/ViewportShader';
+import { VERTEX_DEFAULT, FRAG_NetworkExploration, FRAG_ParticleNetwork1, FRAG_LightLanes } from "./shader_code";
 import { Canvas } from '@react-three/fiber';
 
 //import { PerspectiveCamera } from 'three';
 
-export default function ScreenspaceBackground() {
+export default function ScreenspaceBackground({fragShader}) {
     const pixelRatio = typeof window !== 'undefined' ? window.devicePixelRatio : 1;
 
     return (
@@ -16,7 +16,7 @@ export default function ScreenspaceBackground() {
             >
                 <ShaderComponent
                     vertShader={VERTEX_DEFAULT}
-                    fragShader={FRAG_NetworkExploration}
+                    fragShader={fragShader}
                 />
             </Canvas>
       </div>

@@ -17,7 +17,8 @@ import Layout, { GradientBackground } from '../../components/Layout';
 import SEO from '../../components/SEO';
 
 // Screenspace Shader
-import ScreenspaceBackground from '../../shader/screenspaceBackground';
+import ScreenspaceBackground from '../../shader/ScreenspaceBackground';
+import { FRAG_NetworkExploration, FRAG_ParticleNetwork1, FRAG_LightLanes } from '../../shader/shader_code';
 
 // Custom components/renderers to pass to MDX.
 // Since the MDX files aren't loaded by webpack, they have no knowledge of how
@@ -47,15 +48,18 @@ export default function PostPage({
       <Header name={globalData.name} />
       <article className="px-6 md:px-0">
         <header>
-          <h1 className="text-3xl md:text-5xl dark:text-white text-center mb-12">
+          {/* POST TITLE */}
+          <h1 className="text-3xl md:text-5xl dark:text-white text-center mb-12 drop-shadow">
             {frontMatter.title}
           </h1>
+          {/* POST DESCRIPTION */}
           {frontMatter.description && (
-            <p className="text-xl mb-4">{frontMatter.description}</p>
+            <p className="text-xl mb-4 drop-shadow">{frontMatter.description}</p>
           )}
         </header>
         <main>
-          <article className="prose dark:prose-dark">
+          {/* POST BODY (MARKDOWN) */}
+          <article className="prose dark:prose-dark drop-shadow">
             <MDXRemote {...source} components={components} />
           </article>
         </main>
@@ -90,7 +94,7 @@ export default function PostPage({
       </article>
       <Footer copyrightText={globalData.footerText} />
 
-      <ScreenspaceBackground />
+      <ScreenspaceBackground fragShader={FRAG_NetworkExploration}/>
     </Layout>
   );
 }

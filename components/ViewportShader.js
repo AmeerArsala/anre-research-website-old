@@ -2,6 +2,8 @@ import { useEffect, useMemo, useRef } from "react";
 import { useFrame, useThree } from "@react-three/fiber";
 import * as THREE from 'three';
 //import { ShaderMaterial, PlaneGeometry } from "three";
+
+import styles from "./ViewportShader.module.css";
 //extend({ PlaneBufferGeometry, ShaderMaterial });
 
 function ShaderComponent({vertShader, fragShader}) {
@@ -30,7 +32,7 @@ function ShaderComponent({vertShader, fragShader}) {
     );
 
     return (
-        <mesh ref={meshRef}>
+        <mesh className={styles.shaderBackground} ref={meshRef}>
             <planeGeometry args={[viewport.width, viewport.height]} />
             <shaderMaterial
               uniforms={uniforms}

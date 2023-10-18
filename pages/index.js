@@ -13,7 +13,8 @@ import { getGlobalData } from '../utils/global-data';
 import SEO from '../components/SEO';
 
 // Shader stuff
-import ScreenspaceBackground from '../shader/screenspaceBackground';
+import ScreenspaceBackground from '../shader/ScreenspaceBackground';
+import { FRAG_NetworkExploration, FRAG_ParticleNetwork1, FRAG_LightLanes } from '../shader/shader_code';
 
 // React
 //import { useEffect, useRef } from 'react';
@@ -24,7 +25,7 @@ export default function Index({ posts, globalData }) {
       <SEO title={globalData.name} description={globalData.blogTitle} />
       <Header name={globalData.name} />
       <main className="w-full">
-        <h1 className="text-3xl lg:text-6xl text-center mb-12 font-bold md:font-sans md:font-family-sego-ui sm:font-family-tahoma">
+        <h1 className="text-3xl lg:text-6xl text-center mb-12 font-bold md:font-sans md:font-family-sego-ui sm:font-family-tahoma drop-shadow">
           {globalData.blogTitle}
         </h1>
         <ul className="w-full">
@@ -58,7 +59,7 @@ export default function Index({ posts, globalData }) {
       </main>
       <Footer copyrightText={globalData.footerText} />
       
-      <ScreenspaceBackground />
+      <ScreenspaceBackground fragShader={FRAG_NetworkExploration}/>
       
     </Layout>
   );
