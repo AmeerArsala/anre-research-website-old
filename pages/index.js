@@ -12,6 +12,12 @@ import ArrowIcon from '../components/ArrowIcon';
 import { getGlobalData } from '../utils/global-data';
 import SEO from '../components/SEO';
 
+// Shader stuff
+import ScreenspaceBackground from '../shader/screenspaceBackground';
+
+// React
+//import { useEffect, useRef } from 'react';
+
 export default function Index({ posts, globalData }) {
   return (
     <Layout>
@@ -51,6 +57,13 @@ export default function Index({ posts, globalData }) {
         </ul>
       </main>
       <Footer copyrightText={globalData.footerText} />
+      
+      <ScreenspaceBackground />
+      
+    </Layout>
+  );
+}
+/*
       <GradientBackground
         variant="large"
         className="fixed top-20 opacity-40 dark:opacity-60"
@@ -59,9 +72,7 @@ export default function Index({ posts, globalData }) {
         variant="small"
         className="absolute bottom-0 opacity-20 dark:opacity-10"
       />
-    </Layout>
-  );
-}
+*/
 
 export function getStaticProps() {
   const posts = getPosts();

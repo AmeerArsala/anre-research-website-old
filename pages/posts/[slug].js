@@ -16,6 +16,9 @@ import Header from '../../components/Header';
 import Layout, { GradientBackground } from '../../components/Layout';
 import SEO from '../../components/SEO';
 
+// Screenspace Shader
+import ScreenspaceBackground from '../../shader/screenspaceBackground';
+
 // Custom components/renderers to pass to MDX.
 // Since the MDX files aren't loaded by webpack, they have no knowledge of how
 // to handle import statements. Instead, you must include components in scope
@@ -86,14 +89,8 @@ export default function PostPage({
         </div>
       </article>
       <Footer copyrightText={globalData.footerText} />
-      <GradientBackground
-        variant="large"
-        className="absolute -top-32 opacity-30 dark:opacity-50"
-      />
-      <GradientBackground
-        variant="small"
-        className="absolute bottom-0 opacity-20 dark:opacity-10"
-      />
+
+      <ScreenspaceBackground />
     </Layout>
   );
 }
