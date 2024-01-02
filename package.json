@@ -25,7 +25,7 @@
     "@react-three/fiber": "^8.14.5",
     "@tailwindcss/typography": "^0.5.0",
     "classnames": "^2.3.1",
-    "cypress": "^10.1.0",
+    "cypress": "^13.6.2",
     "gray-matter": "^4.0.2",
     "next": "latest",
     "next-mdx-remote": "^4.1.0",
