@@ -6,7 +6,6 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <link rel="icon" href="/anre-temp.jpg"/>
       </Head>
       <span className="theme-bejamas" />
       <Component {...pageProps} />
