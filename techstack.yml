@@ -1,0 +1,356 @@
+repo_name: AmeerArsala/anre-research-website-old
+report_id: 3184e3351e2effcb1dfc3cd1391b45cb
+version: 0.1
+repo_type: Public
+timestamp: '2024-03-17T04:39:18+00:00'
+requested_by: AmeerArsala
+provider: github
+branch: main
+detected_tools_count: 26
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/AmeerArsala/anre-research-website-old
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/AmeerArsala/anre-research-website-old
+  detection_source: Repo Metadata
+- name: Autoprefixer
+  description: PostCSS plugin to parse CSS and add vendor prefixes to CSS rules
+  website_url: https://github.com/postcss/autoprefixer
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/2202/72d087642cfce6fef6f2dabec5bf49e8_400x400.png
+  detection_source_url: https://github.com/AmeerArsala/anre-research-website-old/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Thom Krupa
+  last_updated_on: 2021-12-09 16:25:11.000000000 Z
+- name: Next.js
+  description: A small framework for server-rendered universal JavaScript apps
+  website_url: https://nextjs.org/
+  version: 12.2.4
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/5936/nextjs.png
+  detection_source_url: https://github.com/AmeerArsala/anre-research-website-old/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Prince Wilson
+  last_updated_on: 2022-02-01 21:34:32.000000000 Z
+- name: PostCSS
+  description: Transform CSS with JS plugins
+  website_url: https://github.com/postcss/postcss
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/3339/rlFcjEdI.png
+  detection_source_url: https://github.com/AmeerArsala/anre-research-website-old/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Thom Krupa
+  last_updated_on: 2021-12-09 16:25:11.000000000 Z
+- name: React
+  description: A JavaScript library for building user interfaces
+  website_url: https://reactjs.org/
+  version: 18.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
+  detection_source_url: https://github.com/AmeerArsala/anre-research-website-old/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Ameer Arsala
+  last_updated_on: 2023-10-18 01:26:38.000000000 Z
+- name: Tailwind CSS
+  description: A utility-first CSS framework for rapid UI development
+  website_url: https://tailwindcss.com
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Front-End Frameworks
+  image_url: https://img.stackshare.io/service/8158/default_660b7c41c3ba489cb581eec89c04655404258c19.png
+  detection_source_url: https://github.com/AmeerArsala/anre-research-website-old/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Prince Wilson
+  last_updated_on: 2022-02-01 21:34:32.000000000 Z
+- name: Cypress
+  description: When testing is easy, developers build better things faster and with
+    confidence.
+  website_url: https://www.cypress.io/
+  version: 10.11.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/9231/default_66c5c1a197dcd0232e41e4ab6299d119b4e165b3.png
+  detection_source_url: https://github.com/AmeerArsala/anre-research-website-old/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-02-23 22:47:11.000000000 Z
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/AmeerArsala/anre-research-website-old/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Thom Krupa
+  last_updated_on: 2021-12-09 16:25:11.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/AmeerArsala/anre-research-website-old
+  detection_source: Repo Metadata
+- name: Yarn
+  description: A new package manager for JavaScript
+  website_url: https://yarnpkg.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/5848/44mC-kJ3.jpg
+  detection_source_url: https://github.com/AmeerArsala/anre-research-website-old/blob/main/yarn.lock
+  detection_source: yarn.lock
+  last_updated_by: Thom Krupa
+  last_updated_on: 2021-12-09 16:25:11.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/AmeerArsala/anre-research-website-old/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Thom Krupa
+  last_updated_on: 2021-12-09 16:25:11.000000000 Z
+- name: Netlify
+  description: Build, deploy and host your static site or app with a drag and drop
+    interface and automatic delpoys from GitHub or Bitbucket
+  website_url: https://www.netlify.com/
+  open_source: false
+  hosted_saas: true
+  category: Application Utilities
+  sub_category: Static Web Hosting
+  image_url: https://img.stackshare.io/service/2748/default_5dfbb146cf22182bca88c7d07f2515a5888fc12a.jpg
+  detection_source_url: https://github.com/AmeerArsala/anre-research-website-old/blob/main/netlify.toml
+  detection_source: netlify.toml
+  last_updated_by: Tatyana
+  last_updated_on: 2023-01-04 18:21:49.000000000 Z
+- name: Prism
+  description: An extensible syntax highlighter, built with modern web standards
+  website_url: https://prismjs.com/
+  version: 1.25.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/10010/Screen_Shot_2012-07-31_at_21.57.03__400x400.png
+  detection_source_url: https://github.com/AmeerArsala/anre-research-website-old/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Thom Krupa
+  last_updated_on: 2021-12-31 01:28:12.000000000 Z
+- name: react-three-fiber
+  description: A React renderer for Three.js (web and react-native)
+  website_url: https://github.com/react-spring/react-three-fiber
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/12781/no-img.png
+  detection_source_url: https://github.com/AmeerArsala/anre-research-website-old/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Ameer Arsala
+  last_updated_on: 2023-10-18 01:26:38.000000000 Z
+- name: three.js
+  description: A JavaScript 3D library
+  website_url: https://threejs.org/
+  version: 0.157.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Game Development
+  image_url: https://img.stackshare.io/service/5883/preview.png
+  detection_source_url: https://github.com/AmeerArsala/anre-research-website-old/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Ameer Arsala
+  last_updated_on: 2023-10-18 01:26:38.000000000 Z
+- name: "@tailwindcss/typography"
+  description: A Tailwind CSS plugin for automatically styling plain HTML content
+    with beautiful typographic defaults
+  package_url: https://www.npmjs.com/@tailwindcss/typography
+  version: 0.5.10
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/AmeerArsala/anre-research-website-old/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Prince Wilson
+  last_updated_on: 2022-02-01 21:34:32.000000000 Z
+- name: classnames
+  description: A simple utility for conditionally joining classNames together
+  package_url: https://www.npmjs.com/classnames
+  version: 2.3.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15942/default_4040fefea2f98006727f63d042275b96a275ab2d.png
+  detection_source_url: https://github.com/AmeerArsala/anre-research-website-old/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Prince Wilson
+  last_updated_on: 2022-02-01 21:34:32.000000000 Z
+- name: eslint-config-next
+  description: ESLint configuration used by Next.js
+  package_url: https://www.npmjs.com/eslint-config-next
+  version: 12.3.4
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/AmeerArsala/anre-research-website-old/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2022-11-28 00:49:13.000000000 Z
+- name: eslint-config-prettier
+  description: Turns off all rules that are unnecessary or might conflict with Prettier
+  package_url: https://www.npmjs.com/eslint-config-prettier
+  version: 8.10.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15879/default_0b10af8ca19c215f781dc07442e75bdc831089d0.png
+  detection_source_url: https://github.com/AmeerArsala/anre-research-website-old/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2022-11-28 00:49:13.000000000 Z
+- name: gray-matter
+  description: Parse front-matter from a string or file
+  package_url: https://www.npmjs.com/gray-matter
+  version: 4.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17773/default_2f87d5add351cc79d3471e48bc0dd6f92c1288ad.png
+  detection_source_url: https://github.com/AmeerArsala/anre-research-website-old/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Thom Krupa
+  last_updated_on: 2021-12-09 16:25:11.000000000 Z
+- name: prismjs
+  description: Lightweight, robust, elegant syntax highlighting
+  package_url: https://www.npmjs.com/prismjs
+  version: 1.25.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16351/default_4cc3f31b8c64a6268fc123f0965a09d1b11180af.png
+  detection_source_url: https://github.com/AmeerArsala/anre-research-website-old/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Thom Krupa
+  last_updated_on: 2021-12-31 01:28:12.000000000 Z
+  vulnerabilities:
+  - name: Cross-site Scripting in Prism
+    cve_id: CVE-2022-23647
+    cve_url: https://github.com/advisories/GHSA-3949-f494-cm99
+    detected_date: Feb 26
+    severity: high
+    first_patched: 1.27.0
+- name: react-dom
+  description: React package for working with the DOM
+  package_url: https://www.npmjs.com/react-dom
+  version: 18.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15808/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/AmeerArsala/anre-research-website-old/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Ameer Arsala
+  last_updated_on: 2023-10-18 01:26:38.000000000 Z
+- name: remark-gfm
+  description: Remark plugin to support GFM
+  package_url: https://www.npmjs.com/remark-gfm
+  version: 3.0.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/AmeerArsala/anre-research-website-old/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Ameer Arsala
+  last_updated_on: 2023-10-18 01:26:38.000000000 Z
+- name: tailwindcss
+  description: A utility-first CSS framework for rapidly building custom user interfaces
+  package_url: https://www.npmjs.com/tailwindcss
+  version: 3.3.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17398/default_2cd7ed1c123f2fca074a6f4b16c4e73d5bfe82be.png
+  detection_source_url: https://github.com/AmeerArsala/anre-research-website-old/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Prince Wilson
+  last_updated_on: 2022-02-01 21:34:32.000000000 Z
+- name: three
+  description: JavaScript 3D library
+  package_url: https://www.npmjs.com/three
+  version: 0.157.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16653/default_cc0f40a737548852d2ee666c132c258c9a2c0cad.png
+  detection_source_url: https://github.com/AmeerArsala/anre-research-website-old/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Ameer Arsala
+  last_updated_on: 2023-10-18 01:26:38.000000000 Z
